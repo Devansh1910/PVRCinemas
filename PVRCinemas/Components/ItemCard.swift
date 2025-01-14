@@ -25,6 +25,10 @@ struct ItemCard: View {
                 Text(title)
                     .font(.system(size: 15, weight: .semibold))
                     .foregroundColor(.black)
+                    .lineLimit(1)
+                    .truncationMode(.tail)
+                    .frame(maxWidth: .infinity, alignment: .leading) // Aligns the text to the leading edge
+
                 
                 HStack(spacing: 4) {
                     Text("₹\(Int(price))")

@@ -33,9 +33,6 @@ struct OrderSnacksView: View {
                     filtersView
                     
                     menuItemsView
-                    
-                    sectionTitle("EXPLORE MORE")
-                    normalVerticalScrollView
                 }
                 .padding(.bottom, 100)
             }
@@ -156,18 +153,50 @@ struct OrderSnacksView: View {
     private var filtersView: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 16) {
-                FilterButton(title: "Veg", isSelected: $selectedVegOnly)
-                FilterButton(title: "Non Veg", isSelected: $selectedNonVeg)
+                // Veg Filter Button
+                FilterButton(title: "Veg", isSelected: Binding(
+                    get: { selectedVegOnly },
+                    set: { newValue in
+                        selectedVegOnly = newValue
+                        if newValue { selectedNonVeg = false } // Disable Non Veg if Veg is selected
+                    }
+                ))
+                
+                // Non Veg Filter Button
+                FilterButton(title: "Non Veg", isSelected: Binding(
+                    get: { selectedNonVeg },
+                    set: { newValue in
+                        selectedNonVeg = newValue
+                        if newValue { selectedVegOnly = false } // Disable Veg if Non Veg is selected
+                    }
+                ))
+                
+                // Bestsellers Filter Button
                 FilterButton(title: "Bestsellers", isSelected: $selectedBestsellers)
+                
+                // Popular Filter Button
                 FilterButton(title: "Popular", isSelected: $selectedPopular)
             }
             .padding(.horizontal)
         }
     }
-    
+
+    private var filteredMenuItems: [FoodItem] {
+        foodItems.filter { item in
+            // Apply filters based on active selections
+            let isVegFilter = (!selectedVegOnly || item.IsVeg) // Veg filter
+            let isNonVegFilter = (!selectedNonVeg || !item.IsVeg) // Non Veg filter
+            let isBestsellersFilter = (!selectedBestsellers || item.Isrecommended) // Bestsellers filter
+            let isPopularFilter = (!selectedPopular || item.isPopularItem) // Popular filter
+            
+            // Return true if the item passes all active filters
+            return isVegFilter && isNonVegFilter && isBestsellersFilter && isPopularFilter
+        }
+    }
+
     private var menuItemsView: some View {
         VStack(spacing: 16) {
-            ForEach(foodItems) { item in
+            ForEach(filteredMenuItems) { item in
                 VStack(spacing: 0) {
                     // Menu Item Row
                     MenuItemRow(
@@ -213,17 +242,6 @@ struct OrderSnacksView: View {
                 subTitle("PAIR THIS WITH")
                 pairWithScrollView(for: item)
             }
-        }
-    }
-
-
-    
-    private var filteredMenuItems: [FoodItem] {
-        foodItems.filter { item in
-            (!selectedVegOnly || item.IsVeg) &&
-            (!selectedNonVeg || !item.IsVeg) &&
-            (!selectedPopular || item.isPopularItem) &&
-            (!selectedBestsellers || item.Isrecommended)
         }
     }
     
@@ -407,29 +425,6 @@ struct OrderSnacksView: View {
                 ), quantity: quantity))
             }
         }
-    }
-
-    private var normalVerticalScrollView: some View {
-        return VStack(alignment: .leading, spacing: 12) {
-            ForEach(foodItems) { item in
-                MenuItemRow(
-                    image: "🍿",
-                    title: item.ItemName,
-                    price: item.price,
-                    isVeg: item.IsVeg,
-                    quantity: Binding(
-                        get: {
-                            cartItems.first(where: { $0.item.id == item.id })?.quantity ?? 0
-                        },
-                        set: { newValue in
-                            updateCart(item: item, quantity: newValue)
-                        }
-                    ),
-                    onAdd: { addItemToCart(item) }
-                )
-            }
-        }
-        .padding(.horizontal)
     }
     
     private func sectionTitle(_ title: String) -> some View {
