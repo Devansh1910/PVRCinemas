@@ -1,0 +1,6 @@
+framework module Pods_PVRCinemasTests {
+  umbrella header "Pods-PVRCinemasTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

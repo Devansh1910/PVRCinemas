@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		24B95850F65A421C4B2705E4 /* Pods_PVRCinemas_PVRCinemasUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62123E6A262ED51226D8EC4A /* Pods_PVRCinemas_PVRCinemasUITests.framework */; };
+		3B3447E723FE27804EC5AABB /* Pods_PVRCinemas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB0CD8184120C3219597208 /* Pods_PVRCinemas.framework */; };
+		FBDC686E1BC5B416A2D18A07 /* Pods_PVRCinemasTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B7615F10409EE4C9538AEB /* Pods_PVRCinemasTests.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		0644330F2D35B68E00017395 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02B0E7DED3CF7DF70A97104B /* Pods-PVRCinemasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PVRCinemasTests.release.xcconfig"; path = "Target Support Files/Pods-PVRCinemasTests/Pods-PVRCinemasTests.release.xcconfig"; sourceTree = "<group>"; };
 		064432FE2D35B68B00017395 /* PVRCinemas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PVRCinemas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0644330E2D35B68E00017395 /* PVRCinemasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PVRCinemasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		064433182D35B68E00017395 /* PVRCinemasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PVRCinemasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9D7614907B23FC546391C6 /* Pods-PVRCinemasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PVRCinemasTests.debug.xcconfig"; path = "Target Support Files/Pods-PVRCinemasTests/Pods-PVRCinemasTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BB5589D7C2C615A2CFC724D /* Pods-PVRCinemas-PVRCinemasUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PVRCinemas-PVRCinemasUITests.release.xcconfig"; path = "Target Support Files/Pods-PVRCinemas-PVRCinemasUITests/Pods-PVRCinemas-PVRCinemasUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5F4ABA6FA7D98CE605693994 /* Pods-PVRCinemas-PVRCinemasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PVRCinemas-PVRCinemasUITests.debug.xcconfig"; path = "Target Support Files/Pods-PVRCinemas-PVRCinemasUITests/Pods-PVRCinemas-PVRCinemasUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		62123E6A262ED51226D8EC4A /* Pods_PVRCinemas_PVRCinemasUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PVRCinemas_PVRCinemasUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F4E7C9FD1291794A3A45B6A /* Pods-PVRCinemas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PVRCinemas.release.xcconfig"; path = "Target Support Files/Pods-PVRCinemas/Pods-PVRCinemas.release.xcconfig"; sourceTree = "<group>"; };
+		90B7615F10409EE4C9538AEB /* Pods_PVRCinemasTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PVRCinemasTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FD5CDE2032F8B60834B9AAF /* Pods-PVRCinemas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PVRCinemas.debug.xcconfig"; path = "Target Support Files/Pods-PVRCinemas/Pods-PVRCinemas.debug.xcconfig"; sourceTree = "<group>"; };
+		AFB0CD8184120C3219597208 /* Pods_PVRCinemas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PVRCinemas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B3447E723FE27804EC5AABB /* Pods_PVRCinemas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBDC686E1BC5B416A2D18A07 /* Pods_PVRCinemasTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24B95850F65A421C4B2705E4 /* Pods_PVRCinemas_PVRCinemasUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +97,8 @@
 				064433112D35B68E00017395 /* PVRCinemasTests */,
 				0644331B2D35B68E00017395 /* PVRCinemasUITests */,
 				064432FF2D35B68B00017395 /* Products */,
+				295CDC45A3CD22FD03176493 /* Pods */,
+				60439A8289DBF58467E75928 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +112,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		295CDC45A3CD22FD03176493 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FD5CDE2032F8B60834B9AAF /* Pods-PVRCinemas.debug.xcconfig */,
+				7F4E7C9FD1291794A3A45B6A /* Pods-PVRCinemas.release.xcconfig */,
+				5F4ABA6FA7D98CE605693994 /* Pods-PVRCinemas-PVRCinemasUITests.debug.xcconfig */,
+				4BB5589D7C2C615A2CFC724D /* Pods-PVRCinemas-PVRCinemasUITests.release.xcconfig */,
+				3F9D7614907B23FC546391C6 /* Pods-PVRCinemasTests.debug.xcconfig */,
+				02B0E7DED3CF7DF70A97104B /* Pods-PVRCinemasTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		60439A8289DBF58467E75928 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFB0CD8184120C3219597208 /* Pods_PVRCinemas.framework */,
+				62123E6A262ED51226D8EC4A /* Pods_PVRCinemas_PVRCinemasUITests.framework */,
+				90B7615F10409EE4C9538AEB /* Pods_PVRCinemasTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,6 +142,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 064433222D35B68E00017395 /* Build configuration list for PBXNativeTarget "PVRCinemas" */;
 			buildPhases = (
+				6D41AAE20DEF39B20B3A0212 /* [CP] Check Pods Manifest.lock */,
 				064432FA2D35B68B00017395 /* Sources */,
 				064432FB2D35B68B00017395 /* Frameworks */,
 				064432FC2D35B68B00017395 /* Resources */,
@@ -111,8 +155,6 @@
 				064433002D35B68B00017395 /* PVRCinemas */,
 			);
 			name = PVRCinemas;
-			packageProductDependencies = (
-			);
 			productName = PVRCinemas;
 			productReference = 064432FE2D35B68B00017395 /* PVRCinemas.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +163,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 064433252D35B68E00017395 /* Build configuration list for PBXNativeTarget "PVRCinemasTests" */;
 			buildPhases = (
+				1425699C49D5A7B8CDEAD52D /* [CP] Check Pods Manifest.lock */,
 				0644330A2D35B68E00017395 /* Sources */,
 				0644330B2D35B68E00017395 /* Frameworks */,
 				0644330C2D35B68E00017395 /* Resources */,
@@ -134,8 +177,6 @@
 				064433112D35B68E00017395 /* PVRCinemasTests */,
 			);
 			name = PVRCinemasTests;
-			packageProductDependencies = (
-			);
 			productName = PVRCinemasTests;
 			productReference = 0644330E2D35B68E00017395 /* PVRCinemasTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -144,6 +185,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 064433282D35B68E00017395 /* Build configuration list for PBXNativeTarget "PVRCinemasUITests" */;
 			buildPhases = (
+				6EAF4BAE6A2C89AB39429F2A /* [CP] Check Pods Manifest.lock */,
 				064433142D35B68E00017395 /* Sources */,
 				064433152D35B68E00017395 /* Frameworks */,
 				064433162D35B68E00017395 /* Resources */,
@@ -157,8 +199,6 @@
 				0644331B2D35B68E00017395 /* PVRCinemasUITests */,
 			);
 			name = PVRCinemasUITests;
-			packageProductDependencies = (
-			);
 			productName = PVRCinemasUITests;
 			productReference = 064433182D35B68E00017395 /* PVRCinemasUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -230,6 +270,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1425699C49D5A7B8CDEAD52D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PVRCinemasTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D41AAE20DEF39B20B3A0212 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PVRCinemas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EAF4BAE6A2C89AB39429F2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PVRCinemas-PVRCinemasUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		064432FA2D35B68B00017395 /* Sources */ = {
@@ -390,6 +499,7 @@
 		};
 		064433232D35B68E00017395 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FD5CDE2032F8B60834B9AAF /* Pods-PVRCinemas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -419,6 +529,7 @@
 		};
 		064433242D35B68E00017395 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F4E7C9FD1291794A3A45B6A /* Pods-PVRCinemas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -448,6 +559,7 @@
 		};
 		064433262D35B68E00017395 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F9D7614907B23FC546391C6 /* Pods-PVRCinemasTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -467,6 +579,7 @@
 		};
 		064433272D35B68E00017395 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02B0E7DED3CF7DF70A97104B /* Pods-PVRCinemasTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +599,7 @@
 		};
 		064433292D35B68E00017395 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F4ABA6FA7D98CE605693994 /* Pods-PVRCinemas-PVRCinemasUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -503,6 +617,7 @@
 		};
 		0644332A2D35B68E00017395 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BB5589D7C2C615A2CFC724D /* Pods-PVRCinemas-PVRCinemasUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

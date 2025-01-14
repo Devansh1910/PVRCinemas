@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02944D6336C1DC5A68109456FF9055E9 /* Pods-PVRCinemas-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C820BAFB5371B92F8D9873CDF790F0 /* Pods-PVRCinemas-dummy.m */; };
+		12D90F643AE56DD98BDD0CE4E76C76B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		186B144D473EFB16FE7A39203785A3E8 /* Pods-PVRCinemas-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA7C9E5E8F0A62DECED93F3C8A14C7E1 /* Pods-PVRCinemas-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4241AB65BCF848D488788BAB7D2A3996 /* Pods-PVRCinemas-PVRCinemasUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 266E81F5929FA2C7B52E2F5CD62C0619 /* Pods-PVRCinemas-PVRCinemasUITests-dummy.m */; };
+		4C773898E74932D6BE347EF4A966A7E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		5D8BF896261564FF82849FF32D8CBE88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		7B53E403399183D1B7F71122FD5CC7B1 /* Pods-PVRCinemasTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD70408B92CE5B3D720F01D1813F3C7F /* Pods-PVRCinemasTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5052A6E3B7FC4E940643E785369E9A2 /* Pods-PVRCinemas-PVRCinemasUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E1D1D0A8DB7AB58AD15D0E52F921851 /* Pods-PVRCinemas-PVRCinemasUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDF67F2FAA4C56284B428308CF08738E /* Pods-PVRCinemasTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3A00F71516768C26E65F8964670B3B /* Pods-PVRCinemasTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA664571A9172580D343B3F4D3B9C42E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BFCB7E603A647255A12C414F539EBB1;
+			remoteInfo = "Pods-PVRCinemas";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01C820BAFB5371B92F8D9873CDF790F0 /* Pods-PVRCinemas-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PVRCinemas-dummy.m"; sourceTree = "<group>"; };
+		0CBACBE02CA4C0C075386D4AAFC004FA /* Pods-PVRCinemasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PVRCinemasTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0FE6FFCE67E13B2F32D1FEC3ADC96EB1 /* Pods-PVRCinemas.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PVRCinemas.modulemap"; sourceTree = "<group>"; };
+		16AF7F67649CAFFABEBFFC46A22B03B9 /* Pods-PVRCinemas-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PVRCinemas-acknowledgements.markdown"; sourceTree = "<group>"; };
+		24D3A864D8CFD830C8D8A9B30A6C68F2 /* Pods-PVRCinemas-PVRCinemasUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PVRCinemas-PVRCinemasUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		266E81F5929FA2C7B52E2F5CD62C0619 /* Pods-PVRCinemas-PVRCinemasUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PVRCinemas-PVRCinemasUITests-dummy.m"; sourceTree = "<group>"; };
+		269A898FC083B82C9DF418D33E70F203 /* Pods-PVRCinemasTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PVRCinemasTests-Info.plist"; sourceTree = "<group>"; };
+		29004086ABE8A814D37C34FA4C495B3E /* Pods-PVRCinemas-PVRCinemasUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PVRCinemas-PVRCinemasUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		29FBFECFB327FDD99A0430D12935F182 /* Pods-PVRCinemas-PVRCinemasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PVRCinemas-PVRCinemasUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		34AFC9AF8C45CA616F300BC9E2213B4A /* Pods-PVRCinemas-PVRCinemasUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PVRCinemas-PVRCinemasUITests"; path = Pods_PVRCinemas_PVRCinemasUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4E3A00F71516768C26E65F8964670B3B /* Pods-PVRCinemasTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PVRCinemasTests-dummy.m"; sourceTree = "<group>"; };
+		50F808303B39AC459B1C562C2AE305CE /* Pods-PVRCinemasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PVRCinemasTests.release.xcconfig"; sourceTree = "<group>"; };
+		598BEDB9AD88D94349A8C226E20A8178 /* Pods-PVRCinemas-PVRCinemasUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PVRCinemas-PVRCinemasUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5AD6C092E77B6C28FC9842DE36FBC5F9 /* Pods-PVRCinemas-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PVRCinemas-Info.plist"; sourceTree = "<group>"; };
+		6A924887F65EAC14C2F8D73B0C2C8062 /* Pods-PVRCinemas-PVRCinemasUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PVRCinemas-PVRCinemasUITests-Info.plist"; sourceTree = "<group>"; };
+		6E1D1D0A8DB7AB58AD15D0E52F921851 /* Pods-PVRCinemas-PVRCinemasUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PVRCinemas-PVRCinemasUITests-umbrella.h"; sourceTree = "<group>"; };
+		8165749EFBE5F568CAD63B45F0700009 /* Pods-PVRCinemasTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PVRCinemasTests"; path = Pods_PVRCinemasTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		832AF483A1F0706EBE3BA198EC2392D2 /* Pods-PVRCinemas-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PVRCinemas-acknowledgements.plist"; sourceTree = "<group>"; };
+		84C396C59EBD4663B2C0353BC1EE9956 /* Pods-PVRCinemasTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PVRCinemasTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		84E1CB87A211AE9105CA684A8EE3B9F3 /* Pods-PVRCinemas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PVRCinemas.release.xcconfig"; sourceTree = "<group>"; };
+		9775DEB96D5DE82CAA16B60453C26248 /* Pods-PVRCinemas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PVRCinemas.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B44C5205F5F686C4C7644942FD188D2A /* Pods-PVRCinemas-PVRCinemasUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PVRCinemas-PVRCinemasUITests.modulemap"; sourceTree = "<group>"; };
+		BA7C9E5E8F0A62DECED93F3C8A14C7E1 /* Pods-PVRCinemas-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PVRCinemas-umbrella.h"; sourceTree = "<group>"; };
+		C9353E71CCB376E3A2B72010C9CCBFCB /* Pods-PVRCinemasTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PVRCinemasTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DD70408B92CE5B3D720F01D1813F3C7F /* Pods-PVRCinemasTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PVRCinemasTests-umbrella.h"; sourceTree = "<group>"; };
+		F071953BDF29D9FFD48A966D46C799C4 /* Pods-PVRCinemas */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PVRCinemas"; path = Pods_PVRCinemas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD3431AF591C6573C85662B89E78FE2 /* Pods-PVRCinemasTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PVRCinemasTests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C007077E122732BDD619BA3E750A3C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8BF896261564FF82849FF32D8CBE88 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25D50431BF9E8722D11B8A58079D2717 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12D90F643AE56DD98BDD0CE4E76C76B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C3F83BFAFED5C6C4C78B122BDC7FD65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C773898E74932D6BE347EF4A966A7E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DE1D2205025A5E99B0B7F9C3575F3B5 /* Pods-PVRCinemasTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBD3431AF591C6573C85662B89E78FE2 /* Pods-PVRCinemasTests.modulemap */,
+				C9353E71CCB376E3A2B72010C9CCBFCB /* Pods-PVRCinemasTests-acknowledgements.markdown */,
+				84C396C59EBD4663B2C0353BC1EE9956 /* Pods-PVRCinemasTests-acknowledgements.plist */,
+				4E3A00F71516768C26E65F8964670B3B /* Pods-PVRCinemasTests-dummy.m */,
+				269A898FC083B82C9DF418D33E70F203 /* Pods-PVRCinemasTests-Info.plist */,
+				DD70408B92CE5B3D720F01D1813F3C7F /* Pods-PVRCinemasTests-umbrella.h */,
+				0CBACBE02CA4C0C075386D4AAFC004FA /* Pods-PVRCinemasTests.debug.xcconfig */,
+				50F808303B39AC459B1C562C2AE305CE /* Pods-PVRCinemasTests.release.xcconfig */,
+			);
+			name = "Pods-PVRCinemasTests";
+			path = "Target Support Files/Pods-PVRCinemasTests";
+			sourceTree = "<group>";
+		};
+		2F32E9DFD51F4F38E70A4C2E06FB2834 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EF0CD1ABDE6517918EF7289F9F495C2 /* Pods-PVRCinemas */,
+				3C48BADA1E931039D9BA214D4D1513BC /* Pods-PVRCinemas-PVRCinemasUITests */,
+				2DE1D2205025A5E99B0B7F9C3575F3B5 /* Pods-PVRCinemasTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3C48BADA1E931039D9BA214D4D1513BC /* Pods-PVRCinemas-PVRCinemasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B44C5205F5F686C4C7644942FD188D2A /* Pods-PVRCinemas-PVRCinemasUITests.modulemap */,
+				24D3A864D8CFD830C8D8A9B30A6C68F2 /* Pods-PVRCinemas-PVRCinemasUITests-acknowledgements.markdown */,
+				29004086ABE8A814D37C34FA4C495B3E /* Pods-PVRCinemas-PVRCinemasUITests-acknowledgements.plist */,
+				266E81F5929FA2C7B52E2F5CD62C0619 /* Pods-PVRCinemas-PVRCinemasUITests-dummy.m */,
+				6A924887F65EAC14C2F8D73B0C2C8062 /* Pods-PVRCinemas-PVRCinemasUITests-Info.plist */,
+				6E1D1D0A8DB7AB58AD15D0E52F921851 /* Pods-PVRCinemas-PVRCinemasUITests-umbrella.h */,
+				29FBFECFB327FDD99A0430D12935F182 /* Pods-PVRCinemas-PVRCinemasUITests.debug.xcconfig */,
+				598BEDB9AD88D94349A8C226E20A8178 /* Pods-PVRCinemas-PVRCinemasUITests.release.xcconfig */,
+			);
+			name = "Pods-PVRCinemas-PVRCinemasUITests";
+			path = "Target Support Files/Pods-PVRCinemas-PVRCinemasUITests";
+			sourceTree = "<group>";
+		};
+		6EF0CD1ABDE6517918EF7289F9F495C2 /* Pods-PVRCinemas */ = {
+			isa = PBXGroup;
+			children = (
+				0FE6FFCE67E13B2F32D1FEC3ADC96EB1 /* Pods-PVRCinemas.modulemap */,
+				16AF7F67649CAFFABEBFFC46A22B03B9 /* Pods-PVRCinemas-acknowledgements.markdown */,
+				832AF483A1F0706EBE3BA198EC2392D2 /* Pods-PVRCinemas-acknowledgements.plist */,
+				01C820BAFB5371B92F8D9873CDF790F0 /* Pods-PVRCinemas-dummy.m */,
+				5AD6C092E77B6C28FC9842DE36FBC5F9 /* Pods-PVRCinemas-Info.plist */,
+				BA7C9E5E8F0A62DECED93F3C8A14C7E1 /* Pods-PVRCinemas-umbrella.h */,
+				9775DEB96D5DE82CAA16B60453C26248 /* Pods-PVRCinemas.debug.xcconfig */,
+				84E1CB87A211AE9105CA684A8EE3B9F3 /* Pods-PVRCinemas.release.xcconfig */,
+			);
+			name = "Pods-PVRCinemas";
+			path = "Target Support Files/Pods-PVRCinemas";
+			sourceTree = "<group>";
+		};
+		752980C290D7A6F4470594D2F4C8FC33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F071953BDF29D9FFD48A966D46C799C4 /* Pods-PVRCinemas */,
+				34AFC9AF8C45CA616F300BC9E2213B4A /* Pods-PVRCinemas-PVRCinemasUITests */,
+				8165749EFBE5F568CAD63B45F0700009 /* Pods-PVRCinemasTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				752980C290D7A6F4470594D2F4C8FC33 /* Products */,
+				2F32E9DFD51F4F38E70A4C2E06FB2834 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6CCC392D8685F8FDFD1B86A32155A8D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B53E403399183D1B7F71122FD5CC7B1 /* Pods-PVRCinemasTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		823ACE51BC9213CC2EC6438F6F572D15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186B144D473EFB16FE7A39203785A3E8 /* Pods-PVRCinemas-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E4F7F7EBE0C16F9BDEF7A11D1906DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5052A6E3B7FC4E940643E785369E9A2 /* Pods-PVRCinemas-PVRCinemasUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		60EC5C6FC756170A3778D770376536CB /* Pods-PVRCinemasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09B96A90A8D3740D51A72F684E2FC00 /* Build configuration list for PBXNativeTarget "Pods-PVRCinemasTests" */;
+			buildPhases = (
+				6CCC392D8685F8FDFD1B86A32155A8D2 /* Headers */,
+				6778D6E2DD012271EE64A0C7148F3428 /* Sources */,
+				1C007077E122732BDD619BA3E750A3C3 /* Frameworks */,
+				29754841D9BB31EFE3F133C6360B4B67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F950C193651199BB3E8EC90CF69830CF /* PBXTargetDependency */,
+			);
+			name = "Pods-PVRCinemasTests";
+			productName = Pods_PVRCinemasTests;
+			productReference = 8165749EFBE5F568CAD63B45F0700009 /* Pods-PVRCinemasTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		9BFCB7E603A647255A12C414F539EBB1 /* Pods-PVRCinemas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D2B55A89390676A5FA1DAC43A4CFF4 /* Build configuration list for PBXNativeTarget "Pods-PVRCinemas" */;
+			buildPhases = (
+				823ACE51BC9213CC2EC6438F6F572D15 /* Headers */,
+				C94C0BACDD9C536DBA32F13281A3E137 /* Sources */,
+				25D50431BF9E8722D11B8A58079D2717 /* Frameworks */,
+				22BDD7DA23863967B4CB5810B7A245B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PVRCinemas";
+			productName = Pods_PVRCinemas;
+			productReference = F071953BDF29D9FFD48A966D46C799C4 /* Pods-PVRCinemas */;
+			productType = "com.apple.product-type.framework";
+		};
+		A9AEE614486DA56BBC847BB19DC42C34 /* Pods-PVRCinemas-PVRCinemasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3FEEDE80FF34EFF5E075CF7E1A63BF5 /* Build configuration list for PBXNativeTarget "Pods-PVRCinemas-PVRCinemasUITests" */;
+			buildPhases = (
+				91E4F7F7EBE0C16F9BDEF7A11D1906DA /* Headers */,
+				F15E28088DC700721E904C43D64E6F53 /* Sources */,
+				7C3F83BFAFED5C6C4C78B122BDC7FD65 /* Frameworks */,
+				49677FDCDD824DF4FDDF3D772440305D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PVRCinemas-PVRCinemasUITests";
+			productName = Pods_PVRCinemas_PVRCinemasUITests;
+			productReference = 34AFC9AF8C45CA616F300BC9E2213B4A /* Pods-PVRCinemas-PVRCinemasUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 752980C290D7A6F4470594D2F4C8FC33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BFCB7E603A647255A12C414F539EBB1 /* Pods-PVRCinemas */,
+				A9AEE614486DA56BBC847BB19DC42C34 /* Pods-PVRCinemas-PVRCinemasUITests */,
+				60EC5C6FC756170A3778D770376536CB /* Pods-PVRCinemasTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22BDD7DA23863967B4CB5810B7A245B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29754841D9BB31EFE3F133C6360B4B67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49677FDCDD824DF4FDDF3D772440305D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6778D6E2DD012271EE64A0C7148F3428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF67F2FAA4C56284B428308CF08738E /* Pods-PVRCinemasTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94C0BACDD9C536DBA32F13281A3E137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02944D6336C1DC5A68109456FF9055E9 /* Pods-PVRCinemas-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15E28088DC700721E904C43D64E6F53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4241AB65BCF848D488788BAB7D2A3996 /* Pods-PVRCinemas-PVRCinemasUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F950C193651199BB3E8EC90CF69830CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PVRCinemas";
+			target = 9BFCB7E603A647255A12C414F539EBB1 /* Pods-PVRCinemas */;
+			targetProxy = FA664571A9172580D343B3F4D3B9C42E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B0DA981CF7003102760F9C43B6D2D6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 598BEDB9AD88D94349A8C226E20A8178 /* Pods-PVRCinemas-PVRCinemasUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-PVRCinemas-PVRCinemasUITests/Pods-PVRCinemas-PVRCinemasUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PVRCinemas-PVRCinemasUITests/Pods-PVRCinemas-PVRCinemasUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25031EBC15F00F7ABC5928C1A71B5A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9775DEB96D5DE82CAA16B60453C26248 /* Pods-PVRCinemas.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-PVRCinemas/Pods-PVRCinemas-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PVRCinemas/Pods-PVRCinemas.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		531AB9B51913EE274022D67EB63CB4E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9A3BBAEC3871DFCB231A4E86262CCBD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CBACBE02CA4C0C075386D4AAFC004FA /* Pods-PVRCinemasTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-PVRCinemasTests/Pods-PVRCinemasTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PVRCinemasTests/Pods-PVRCinemasTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A06A0B8B8C2AC1F57A3C67ACD4FEC0B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AA73F85ABAACC8BCD543019A73E10653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84E1CB87A211AE9105CA684A8EE3B9F3 /* Pods-PVRCinemas.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-PVRCinemas/Pods-PVRCinemas-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PVRCinemas/Pods-PVRCinemas.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DB03793E08606223BA0FAFABFC3AAD83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50F808303B39AC459B1C562C2AE305CE /* Pods-PVRCinemasTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-PVRCinemasTests/Pods-PVRCinemasTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PVRCinemasTests/Pods-PVRCinemasTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA90D866B24EBB8E77EF72735C469006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29FBFECFB327FDD99A0430D12935F182 /* Pods-PVRCinemas-PVRCinemasUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-PVRCinemas-PVRCinemasUITests/Pods-PVRCinemas-PVRCinemasUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PVRCinemas-PVRCinemasUITests/Pods-PVRCinemas-PVRCinemasUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A06A0B8B8C2AC1F57A3C67ACD4FEC0B3 /* Debug */,
+				531AB9B51913EE274022D67EB63CB4E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3D2B55A89390676A5FA1DAC43A4CFF4 /* Build configuration list for PBXNativeTarget "Pods-PVRCinemas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25031EBC15F00F7ABC5928C1A71B5A98 /* Debug */,
+				AA73F85ABAACC8BCD543019A73E10653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D09B96A90A8D3740D51A72F684E2FC00 /* Build configuration list for PBXNativeTarget "Pods-PVRCinemasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A3BBAEC3871DFCB231A4E86262CCBD6 /* Debug */,
+				DB03793E08606223BA0FAFABFC3AAD83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3FEEDE80FF34EFF5E075CF7E1A63BF5 /* Build configuration list for PBXNativeTarget "Pods-PVRCinemas-PVRCinemasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA90D866B24EBB8E77EF72735C469006 /* Debug */,
+				0B0DA981CF7003102760F9C43B6D2D6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
