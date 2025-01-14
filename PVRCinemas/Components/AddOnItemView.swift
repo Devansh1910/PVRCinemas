@@ -6,10 +6,10 @@ struct AddOnItemView: View {
 
     var body: some View {
         HStack {
-            Text(addOn.name ?? "Unknown") // Provide a fallback value for nil
+            Text(addOn.name ?? "Unknown")
                 .font(.system(size: 14, weight: .medium))
             Spacer()
-            Text("₹\(Int(addOn.price ?? 0))") // Provide a fallback value for nil
+            Text("₹\(Int(addOn.price ?? 0))")
                 .font(.system(size: 14, weight: .regular))
             Toggle("", isOn: $isSelected)
                 .labelsHidden()

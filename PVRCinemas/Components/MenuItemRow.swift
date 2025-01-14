@@ -1,19 +1,18 @@
 import SwiftUI
 
 struct MenuItemRow: View {
-    let image: String // Image or emoji for the item
-    let title: String // Item title
-    let price: Double // Item price
-    let isVeg: Bool // Veg/Non-Veg indicator
-    @Binding var quantity: Int // Quantity of the item
-    var onAdd: () -> Void // Action to add the item
-    var isCustomizable: Bool = true // Customizable flag
+    let imageName: String
+    let title: String
+    let price: Double
+    let isVeg: Bool
+    @Binding var quantity: Int
+    var onAdd: () -> Void
+    var isCustomizable: Bool = true
 
     var body: some View {
         HStack(spacing: 12) {
-            // Left - Image and Veg/Non-Veg Indicator
             ZStack(alignment: .topLeading) {
-                Image(image)
+                Image(imageName)
                     .resizable()
                     .scaledToFill()
                     .frame(width: 60, height: 60)
@@ -30,14 +29,13 @@ struct MenuItemRow: View {
                     .offset(x: -4, y: -4)
             }
 
-            // Middle - Item Details
             VStack(alignment: .leading, spacing: 4) {
                 Text(title)
                     .font(.system(size: 13, weight: .semibold))
                     .foregroundColor(.black)
                     .lineLimit(1)
                     .truncationMode(.tail)
-                    .frame(maxWidth: 150) // Optional: To strictly limit width
+                    .frame(maxWidth: 150)
 
                 HStack(spacing: 4) {
                     Text("₹\(Int(price))")
@@ -54,7 +52,6 @@ struct MenuItemRow: View {
 
             Spacer()
 
-            // Right - Add or Quantity Selector
             if quantity > 0 {
                 HStack(spacing: 8) {
                     Button(action: { if quantity > 0 { quantity -= 1 } }) {
@@ -100,21 +97,5 @@ struct MenuItemRow: View {
             RoundedRectangle(cornerRadius: 12)
                 .stroke(Color.gray.opacity(0.2), lineWidth: 1)
         )
-    }
-}
-
-struct MenuItemRow_Previews: PreviewProvider {
-    static var previews: some View {
-        MenuItemRow(
-            image: "popcorn", // Replace with your image asset name
-            title: "Popcorn Large with Extra Butter",
-            price: 460,
-            isVeg: true,
-            quantity: .constant(0),
-            onAdd: {},
-            isCustomizable: true
-        )
-        .previewLayout(.sizeThatFits)
-        .padding()
     }
 }

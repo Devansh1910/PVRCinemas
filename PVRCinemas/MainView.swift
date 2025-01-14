@@ -6,7 +6,7 @@ struct OrderSnacksView: View {
     @State private var selectedBestsellers = false
     @State private var selectedPopular = false
     @State private var foodItems: [FoodItem] = loadJSON()
-    @State private var cartItems: [CartItem] = []
+//    @State private var cartItems: [CartItem] = []
     @State private var selectedItemID: String?
     @State private var selectedItem: FoodItem?
     @State private var selectedAddOns: [String: [String: Int]] = [:]
@@ -83,7 +83,7 @@ struct OrderSnacksView: View {
             HStack(spacing: 12) {
                 ForEach(foodItems.filter { $0.Isrepeat }) { item in
                     MenuItemRow(
-                        image: "🍿",
+                        imageName: item.imageName ?? "placeholder", // Use item's imageName or a fallback placeholder
                         title: item.ItemName,
                         price: item.price,
                         isVeg: item.IsVeg,
@@ -97,8 +97,9 @@ struct OrderSnacksView: View {
                         ),
                         onAdd: {
                             addItemToCart(item)
-                            selectedItem = item // Set the selected item
+                            selectedItemID = item.id // Ensure selectedItemID is set
                         }
+
                     )
                 }
             }
@@ -127,7 +128,7 @@ struct OrderSnacksView: View {
             HStack(spacing: 12) {
                 ForEach(foodItems.filter { $0.Isrecommended }) { item in
                     MenuItemRow(
-                        image: "🍿",
+                        imageName: item.imageName ?? "placeholder", // Use item's imageName or a fallback placeholder
                         title: item.ItemName,
                         price: item.price,
                         isVeg: item.IsVeg,
@@ -141,8 +142,9 @@ struct OrderSnacksView: View {
                         ),
                         onAdd: {
                             addItemToCart(item)
-                            selectedItem = item // Set the selected item
+                            selectedItemID = item.id // Ensure selectedItemID is set
                         }
+
                     )
                 }
             }
@@ -200,7 +202,7 @@ struct OrderSnacksView: View {
                 VStack(spacing: 0) {
                     // Menu Item Row
                     MenuItemRow(
-                        image: "🍿",
+                        imageName: item.imageName ?? "placeholder", // Use item's imageName or a fallback placeholder
                         title: item.ItemName,
                         price: item.price,
                         isVeg: item.IsVeg,
@@ -214,13 +216,9 @@ struct OrderSnacksView: View {
                         ),
                         onAdd: {
                             addItemToCart(item)
-                            if let cartItem = cartItems.first(where: { $0.item.id == item.id }),
-                               cartItem.quantity > 0 {
-                                selectedItemID = item.id // Show add-ons
-                            } else {
-                                selectedItemID = nil // Hide add-ons
-                            }
+                            selectedItemID = item.id // Ensure selectedItemID is set
                         }
+
                     )
                     
                     // "PAIR THIS WITH" Section
@@ -239,11 +237,14 @@ struct OrderSnacksView: View {
                cartItem.quantity > 0,
                let addOns = item.AddOnItem,
                !addOns.isEmpty {
-                subTitle("PAIR THIS WITH")
-                pairWithScrollView(for: item)
+                VStack(alignment: .leading) {
+                    subTitle("PAIR THIS WITH")
+                    pairWithScrollView(for: item)
+                }
             }
         }
     }
+
     
     private func addItemToCart(_ item: FoodItem) {
         if let existingIndex = cartItems.firstIndex(where: { $0.item.id == item.id }) {
@@ -357,6 +358,7 @@ struct OrderSnacksView: View {
         }
         .padding(.bottom, 8)
     }
+
     
     private func updateAddOnQuantity(for item: FoodItem, addon: AddOnItem, quantity: Int) {
         if selectedAddOns[item.id] == nil {
@@ -406,7 +408,6 @@ struct OrderSnacksView: View {
         updateCartWithAddOn(item: item, addon: addon, quantity: selectedAddOns[item.id]?[addon.addonItemId ?? ""] ?? 0)
     }
 
-
     private func updateCartWithAddOn(item: FoodItem, addon: AddOnItem, quantity: Int) {
         if let addonPrice = addon.price {
             cartItems.removeAll { $0.item.ItemID == addon.addonItemId }
@@ -421,11 +422,13 @@ struct OrderSnacksView: View {
                     foodType: item.foodType,
                     AddOnItem: nil,
                     Isrepeat: false,
-                    Isrecommended: false
+                    Isrecommended: false,
+                    imageName: addon.imageName ?? "placeholder" // Use add-on's imageName or placeholder
                 ), quantity: quantity))
             }
         }
     }
+
     
     private func sectionTitle(_ title: String) -> some View {
         HStack(spacing: 8) {
@@ -477,14 +480,14 @@ struct AddOnItemRow: View {
 
     var body: some View {
         HStack(spacing: 12) {
-            // Left: Veg/Non-Veg Indicator
+            // Left: Image or Veg/Non-Veg Indicator
             ZStack {
                 RoundedRectangle(cornerRadius: 8)
                     .fill(Color.gray.opacity(0.1))
                     .frame(width: 60, height: 60)
                 
                 Image(systemName: addon.addonItemId != nil ? "leaf.fill" : "circle.fill")
-                    .foregroundColor(.green) // Add appropriate logic if needed
+                    .foregroundColor(.green) // Replace with proper logic if needed
                     .font(.system(size: 14))
             }
             
@@ -544,8 +547,6 @@ struct AddOnItemRow: View {
         )
     }
 }
-
-
 
 struct OrderSnacksView_Previews: PreviewProvider {
     static var previews: some View {

@@ -1,7 +1,7 @@
 import Foundation
 
 struct FoodItem: Identifiable, Codable {
-    var id: String { ItemID } // This allows it to conform to Identifiable
+    var id: String { ItemID }
     let ItemID: String
     let ItemName: String
     let IsVeg: Bool
@@ -9,8 +9,9 @@ struct FoodItem: Identifiable, Codable {
     let isPopularItem: Bool
     let foodType: String
     let AddOnItem: [AddOnItem]?
-    let Isrepeat: Bool // Add this property
-    let Isrecommended: Bool // Add this property
+    let Isrepeat: Bool
+    let Isrecommended: Bool
+    let imageName: String?
 
     enum CodingKeys: String, CodingKey {
         case ItemID
@@ -22,21 +23,23 @@ struct FoodItem: Identifiable, Codable {
         case AddOnItem
         case Isrepeat
         case Isrecommended
+        case imageName
     }
 }
 
 struct AddOnItem: Codable, Identifiable {
-    var id: String { addonItemId ?? UUID().uuidString } // Use addonItemId or fallback to a generated UUID
+    var id: String { addonItemId ?? UUID().uuidString }
     let addonItemId: String?
     let name: String?
     let price: Double?
     let quantity: Int?
+    let imageName: String?
 }
 
 
-struct CartItem: Identifiable {
-    var id = UUID() // A unique identifier
-    let item: FoodItem
-    var quantity: Int
-}
+//struct CartItem: Identifiable {
+//    var id = UUID() // A unique identifier
+//    let item: FoodItem
+//    var quantity: Int
+//}
 

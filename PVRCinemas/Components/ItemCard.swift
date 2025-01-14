@@ -53,8 +53,12 @@ struct ItemCard: View {
                     .foregroundColor(.black)
                     .padding(.vertical, 6)
                     .padding(.horizontal, 20)
-                    .background(Color.yellow.opacity(0.8))
+                    .background(Color.yellow.opacity(0.2))
                     .cornerRadius(6)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 12)
+                            .stroke(Color.yellow.opacity(0.8), lineWidth: 1)
+                    )
             }
         }
         .padding(12)
