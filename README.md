@@ -35,4 +35,8 @@ This project is a SwiftUI-based iOS application that simulates a snack ordering 
   - Responsiveness.
 - Optimized for **light mode**.
 
----
+### HERE IS A DIRECTED GRAPHICAL REPRESENTATION
+
+![output-4](https://github.com/user-attachments/assets/1d4e6ef7-79ee-4555-9e0f-0b3d537876a0)
+
+
